@@ -32,45 +32,76 @@
 config.ini 文件配置说明
 
 [host]
+
 api_sit_url=https://api.bin.com    #暂时不用     实际使用请删除注释
+
 api_uat_url=https://api.bin.com   #暂时不用
 
+
 [mysql]
+
 host=127.0.0.1    #mysql ip
+
 port=3306
+
 user=              # 用户
+
 password=          #密码
+
 dbname=            #数据库名称
 
 
+
 [redis]
+
 host=127.0.0.1
+
 port=6379
+
 password=88888        #暂时不用
+
 db=0
+
 
 
 [zhipu]
 api_key=              #清华智谱ai的key https://open.bigmodel.cn/login?redirect=%2Fknowledge
+
 knowledge_id=         #知识库id
+
 contents=将有工作人员联系您！  #如果私信里有手机号码 或微信号 时的回复内容
+
 autoreply=True
 
+
 [dysk]
+
 appkey=asddfggggg      #私信抖音号 2221281879 免费获取key
+
 douyinhao=             # 你的抖音号
 
+
 [mywebsite]
+
 url=                   #你自己系统的接口地址   没有可以为空
 
 
+
 [qywx]
+
 Webhook=            #企业qq的机器人地址
+
 mentioned_list="wangqing","@all"
+
 mentioned_mobile_list="13800001111","@all"
+
 mentioned_content=有新客户，请尽快联系     #提示语
 
 
+
 [dy]
+
 dyfocus=抖音获客系统       #暂时不用
+
 dyfocuscount=100
+
