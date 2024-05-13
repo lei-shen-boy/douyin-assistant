@@ -29,7 +29,21 @@
 赶快行动吧!让抖音获客助手系统成为你业务增长的新引擎，助你轻松实现客户增长和业务拓展!
 
 windows10 中 安装 mysql 火狐浏览器
-
+数据库表
+CREATE TABLE `douyin_phone` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) DEFAULT NULL,
+  `phone` varchar(255) DEFAULT NULL,
+  `talltext` text,
+  `createtime` datetime DEFAULT NULL,
+  `realname` varchar(255) DEFAULT NULL,
+  `dy_user_name_self` varchar(255) DEFAULT NULL COMMENT '抖音用户名称 自己',
+  `dy_user_hao` varchar(255) DEFAULT NULL COMMENT '抖音号',
+  `dy_user_info_type` varchar(255) DEFAULT NULL COMMENT '手机号码  微信号',
+  `isvalid` bit(1) DEFAULT b'1' COMMENT '1',
+  `realinfo` varchar(255) DEFAULT NULL COMMENT '电话 微信  人工确认',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=233 DEFAULT CHARSET=utf8;
 config.ini 文件配置说明
 
 [host]
